@@ -15,10 +15,10 @@ For learning purpose
 * In Lists 5==> 00000101 ==> Need lot more information to store this integer
 
 (Lists uses built-in int type it consists of 4 things
-*Size:- Size of the integer value
-*Reference Count:- How many times that integer is being pointed at
-*Object Type:-
-*Object Value:- it has its own bits assosiated with it
+* Size:- Size of the integer value
+* Reference Count:- How many times that integer is being pointed at
+* Object Type:-
+* Object Value:- it has its own bits assosiated with it
 In Lists 5 ==> **00000000 00000000 00000000 00011100(Size)
                00000001 00111101 11111110 10111100 00011010 11011101 10100100 11011000(Reference Count)
                11001010 10111110 01100001 01000100 11111100 00000000 11001100 01011111(Object Type)
