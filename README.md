@@ -3,16 +3,16 @@ For learning purpose
 
 
 **What is NumPy?**
-**->** Numpy is a multi-dimensional array library
-       We can store 1D, 2D, 3D,.... upto N-Dimensional arrays
+* Numpy is a multi-dimensional array library
+* We can store 1D, 2D, 3D,.... upto N-Dimensional arrays
        
 **How are Lists diferent from NumPy?**
-**->**Lets say we have a (3X4) metrix with all integer values => [[3, 1, 2, 4],[5, 7, 1, 2][4, 1, 0, 1]]
-      lets take 5 from the metrix and see how it is stored in the numpy array and lists
+* Lets say we have a (3X4) metrix with all integer values => [[3, 1, 2, 4],[5, 7, 1, 2][4, 1, 0, 1]]
+* lets take 5 from the metrix and see how it is stored in the numpy array and lists
 
-In numpy 5 ==> 00000101(Binary) ==> 00000000 00000000 00000000 00000101(Int32)
+* In numpy 5 ==> 00000101(Binary) ==> 00000000 00000000 00000000 00000101(Int32)
 
-In Lists 5==> 00000101 ==> Need lot more information to store this integer
+* In Lists 5==> 00000101 ==> Need lot more information to store this integer
 
 Lists uses built-in int type it consists of 4 things
 Size:- Size of the integer value
