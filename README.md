@@ -1,6 +1,4 @@
 # NumPy
-For learning purpose
-
 
 **What is NumPy?**
 * Numpy is a multi-dimensional array library
