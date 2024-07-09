@@ -25,25 +25,25 @@ In Lists 5 ==> **00000000 00000000 00000000 00011100(Size)
                00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000101(Object Value)**
                
 **Benefits of Contiguous Memory**
--> SIMD Vector Processing
--> Effective Cache Utilization
+* SIMD Vector Processing
+* Effective Cache Utilization
 
 **Lists**
 * Lists are slower because its takes lot more space than numpy
-->Each element has to be type checked while iterating through it
-->Lists doesnt ustilize Contiguous memory
-->The list is actually containing pointer to the actual information scattered around the computer memory
--> Operations that can be performed:- Insertion, deletion, appending, concatination, etc.
+* Each element has to be type checked while iterating through it
+* Lists doesnt ustilize Contiguous memory
+* The list is actually containing pointer to the actual information scattered around the computer memory
+* Operations that can be performed:- Insertion, deletion, appending, concatination, etc.
 
 **NumPy**
-->NumPy is faster than lists because numpy uses fixed types
-->NumPy doesn't requires type checking
-->Numpy utilizes Contiguous Memory
-->All the elements of the array are stored next to each other in the computer memory
-->Operations that can be performed:- Insertion, deletion, appending, concatination, etc. and lots more
+* NumPy is faster than lists because numpy uses fixed types
+* NumPy doesn't requires type checking
+* Numpy utilizes Contiguous Memory
+* All the elements of the array are stored next to each other in the computer memory
+* Operations that can be performed:- Insertion, deletion, appending, concatination, etc. and lots more
 
 **Application of NumPy?**
-Mathematics (MATLAB Replacement)
-Plotting (Matplolib)
-Backend (Pandas, Connect4, Digital Photography)
-Machine Learning
+* Mathematics (MATLAB Replacement)
+* Plotting (Matplolib)
+* Backend (Pandas, Connect4, Digital Photography)
+* Machine Learning
