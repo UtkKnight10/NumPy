@@ -14,7 +14,7 @@ For learning purpose
 
 * In Lists 5==> 00000101 ==> Need lot more information to store this integer
 
-## Lists uses built-in int type it consists of 4 things
+Lists uses built-in int type it consists of 4 things
 * Size:- Size of the integer value
 * Reference Count:- How many times that integer is being pointed at
 * Object Type:-
